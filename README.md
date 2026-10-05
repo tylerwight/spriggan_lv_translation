@@ -1,6 +1,6 @@
 # Spriggan Lunar Verse Translation
 
-This repo contains the tools I wrote to help me translate Spriggan Lunar Verse, as well as the final patch itself. I also used jpsxdec to export/import some images and GIMP to edit and translate them.
+This repo contains the tools I wrote to help me translate Spriggan Lunar Verse for the PS1, as well as the final patch itself. I also used jpsxdec to export/import some images and GIMP to edit and translate them.
 
 
 ## How to use the Patch
