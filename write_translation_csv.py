@@ -12,7 +12,6 @@ path = "./extracted/SLPS_021.17"
 if not os.path.exists(path + ".orig"):
     shutil.copy(path, path + ".orig")
 
-# always start from the untouched original, so re-running never stacks old patches
 data = bytearray(open(path + ".orig", "rb").read())
 original_size = len(data)
 

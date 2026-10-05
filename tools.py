@@ -24,8 +24,8 @@ KEEP_ASCII = re.compile(r"(/|%\d*[sdxX]|\(\d+\)|<\d+>|#|&|\*)")
 
 
 
-def to_sjis(text: str) -> bytes:
-    """Encode English as full-width Shift-JIS, leaving control codes alone."""
+def to_sjis(text: str) -> bytes: #convert english text to shift-jis
+
     out = b""
     for part in KEEP_ASCII.split(text):
         if not part:
@@ -35,16 +35,14 @@ def to_sjis(text: str) -> bytes:
             continue
         for c in part:
             if c == " ":
-                out += b"\x81\x40"                    # full-width space
+                out += b"\x81\x40"                    
             elif "!" <= c <= "~":
-                out += chr(ord(c) + 0xFEE0).encode("cp932")   # full-width Latin
+                out += chr(ord(c) + 0xFEE0).encode("cp932")   
             else:
-                out += c.encode("cp932")              # kana/kanji pass through
+                out += c.encode("cp932")             
     return out
 
-# def looks_japanese(s):
-#     kana = sum("\u3040" <= c <= "\u30ff" for c in s)
-#     return kana >= 2 or (kana >= 1 and len(s) >= 4)
+
 
 def looks_japanese(s):
     kana = sum("\u3040" <= c <= "\u30ff" for c in s)
@@ -100,15 +98,13 @@ def scan_file(start: int, end: int, data: bytearray):
 def save_to_csv(translations, filename):
     with open(filename, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.writer(f)
-
-        # header row
         writer.writerow(["id", "offset", "length", "text_original", "text_new"])
 
-        # one row per entry
+
         for to in translations:
             writer.writerow([
                 to.id,
-                f"{to.offset:#x}",    # saved as text like 0x1178
+                f"{to.offset:#x}", 
                 to.length,
                 to.text_original,
                 to.text_new,
@@ -132,8 +128,7 @@ def load_from_csv(filename):
 
 
 
-def patch_entry(to: TranslationObject, data: bytearray):
-    """Put one translation into data (in memory only). Returns True if it was written."""
+def patch_entry(to: TranslationObject, data: bytearray):#Put one translation into data (in memory only). Returns True if it was written.
     if len(to.text_new) < 1:
         return False
 

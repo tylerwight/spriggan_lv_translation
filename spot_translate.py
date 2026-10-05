@@ -2,11 +2,7 @@ import re
 import shutil
 import os
 from dataclasses import dataclass
-from tools import TranslationObject
-from tools import to_sjis
-from tools import scan_file
-from tools import looks_japanese
-from tools import write_to_file
+from tools import TranslationObject, to_sjis, scan_file, looks_japanese, write_to_file
 
 
 
