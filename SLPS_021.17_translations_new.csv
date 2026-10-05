@@ -1,0 +1,50 @@
+﻿id,offset,length,text_original,text_new
+112,0x1178,35,デュアルショックの/振動を制御します,DShock/Vibration
+113,0x119c,39,イベント会話内容の/表示形態を選択します,Dialog display/mode
+114,0x11c4,25,ＢＧＭの音量を調整/します,BGM/Volume
+115,0x11e0,25,効果音の音量を調整/します,SFX/Volume
+116,0x11fc,39,ステレオ／モノラルの/切り替えを行います,Stereo/Mono switch
+117,0x1224,33,自動制御カメラの/使用を選択します,Auto camera/Use?
+118,0x1248,31,キー配置変更メニュー/を開きます,Key config/menu
+119,0x1268,33,標準タイプの操作系/通常移動：走行,Standard/Run move
+120,0x128c,68,アナログコントローラを使用する/ときに適している操作系/通常移動：走行,For analog pad/Easy to use/Run move
+121,0x12d4,62,弊社作、キングスフィールドを/イメージした操作系/通常移動：歩行,KingsField type/FromSoft/Walk
+122,0x1314,58,弊社作、アーマードコアを/イメージした操作系/通常移動：歩行,ArmoredCore type/FromSoft/Walk
+123,0x1350,45,キーエディットにより/カスタマイズされた操作系,Custom control/Key Edit
+124,0x1380,12,左方向に旋回,Turn L
+125,0x1390,18,カメラ視点を上げる,Camera Up
+126,0x13a4,12,右方向に旋回,Turn R
+127,0x13b4,18,カメラ視点を下げる,Camera Dn
+128,0x13c8,12,画面奥に移動,Fwd
+129,0x13d8,14,画面手前に移動,Back
+130,0x13e8,8,左に移動,Left
+131,0x13f4,8,右に移動,Rght
+132,0x1400,8,ジャンプ,Jump
+133,0x140c,63,装備武器で攻撃/ジャンプ、走行中に特殊攻撃/Kと組み合わせてコンボ,Attack/Dash special/Combo with K
+134,0x144c,40,小攻撃/ボタン押しなどの/アクションを発動,Light atk/Press/Use
+135,0x1478,66,押している間%s行/カメラを主人公の向きに変更/２回連続押しで武器変更,Hold: %s/Cam to front/2x: weapon
+136,0x14bc,34,メモリーカードをチェックしています,Checking Card
+137,0x14e0,59,データをロードしています/メモリーカードを抜かないでください,Loading/Do not remove card
+138,0x151c,59,データをセーブしています/メモリーカードを抜かないでください,Saving/Do not remove card
+139,0x1558,61,メモリーカードがメモリーカード/差込口１、２に差されていません,No card in/slot 1 or 2
+140,0x1598,32,スプリガンのデータが存在しません,No Spriggan data
+141,0x15bc,40,メモリーカードの空き容量が/   足りません,Card space/is low
+142,0x15e8,20,ロードに失敗しました,Load Fail
+143,0x1600,20,セーブに失敗しました,Save Fail
+144,0x1618,26,フォーマットされていません,Not formatted
+145,0x1634,16,読み込みますか？,Load it?
+146,0x1648,18,新規作成しますか？,New file?
+147,0x165c,16,上書きしますか？,Replace?
+148,0x1670,20,ロードが完了しました,Load done
+149,0x1688,20,セーブが完了しました,Save done
+150,0x16a0,57,フォーマットしています/メモリーカードを抜かないでください,Formatting/Do not remove card
+151,0x16dc,26,フォーマットが終了しました,Format done
+152,0x16f8,28,フォーマットできませんでした,Format failed
+153,0x1718,22,フォーマットしますか？,Format it?
+154,0x1730,39,ゲームクリアの情報を/  セーブしますか？,Save clear/data?
+155,0x1758,57,メモリーカードがメモリーカード/  差込口１から抜かれました,Card removed from/slot 1
+156,0x1794,57,メモリーカードがメモリーカード/  差込口２から抜かれました,Card removed from/slot 2
+39970,0x506b2,5,辟!臣,
+76623,0x9772a,5,側!安,
+85024,0xa8106,6,ぐヮ,
+92782,0xba75a,5,繻!唖,

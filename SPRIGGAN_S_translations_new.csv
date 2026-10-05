@@ -1,0 +1,11 @@
+﻿id,offset,length,text_original,text_new
+4250,0x99814,30,サイコブレイズ（ディフェンス）,PsyBlaze DEF
+4252,0x99894,24,サイコブレイズ（パワー）,PsyBlaze POW
+4254,0x99914,12,サイコブロー,PsyHit
+4257,0x99994,26,サイコブレイズ（スピード）,PsyBlaze SPD
+4262,0x99a14,16,サイコクラッシュ,PsyCrush
+4266,0x99a94,14,サイコサンダー,PsyBolt
+4268,0x99b14,14,サイコストーム,PsyGale
+4274,0x99b94,16,ソニックウェーブ,SonicWav
+4277,0x99c14,16,御神苗専用必殺技,Yu Skill
+4282,0x99c94,20,スケルトン専用必殺技,Skel Skill
